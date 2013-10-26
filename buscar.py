@@ -14,7 +14,7 @@ from anadir import anadirSeguimiento
 class Find:
 	
 	def __init__(self):
-		#Obtenemos la ruta de la carpeta donde se encuentra el glade
+		#Obtenemos la ruta de la carpeta donde se encuentra el glade.
 		pathname = os.path.dirname(sys.argv[0])
 		ruta = os.path.abspath(pathname) + "/GUI/"
 		pantallaPrincipal = ruta + "busqueda.glade"
